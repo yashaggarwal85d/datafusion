@@ -15,6 +15,11 @@ they change.
 - Commit messages and PR bodies get NO `Co-Authored-By: Claude`, no
   `Claude-Session:` trailer and no "Generated with Claude Code" line. Put no
   agent or model name anywhere in the repo.
+- Every upstream PR description ends with an AI-use disclosure, per the
+  ASF generative tooling guidance (the user chose this as the ethical
+  default). For example: "AI-assisted: I used an AI coding assistant while
+  preparing this PR. I have reviewed and understand all changes." Name no
+  specific tool or model unless the user asks.
 - Do not post issue or PR comments or reviews via the GitHub tools (they
   carry a Claude Code footer). Draft the text, and the user posts it from
   their own account in their own words, as the AI policy requires anyway.
